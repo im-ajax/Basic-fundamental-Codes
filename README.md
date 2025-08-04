@@ -17,12 +17,15 @@ This repository will be using for revise. This will be helping to revise codes e
 6. frequecy arrays<br>
 7. string<br>
 8. function and recursion<br>
-
-<br><br>
 <hr>
 thing which will be covered in c++: <br>
 1. same as c<br>
-2. class and objects.<br>
+2. Vector<br>
+3. class and objects.<br>
 
 <hr> 
 Dhata structure :
+1. Space and time Complexity<br>
+2. Stack and queue <br>
+3. Linked List<br>
+4. Binary Tree.<br>
