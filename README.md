@@ -24,16 +24,16 @@ thing which will be covered in c++: <br>
 3. class and objects.<br>
 
 <hr> 
-Data structure :
+Data structure :<br>
 1. Space and time Complexity<br>
 2. Stack and queue <br>
 3. Linked List<br>
 4. Binary Tree.<br>
 
-Algorithm:
-1. BFS
-2. DFS
-3. Dijksstra Algorith,
-4. Bellman Ford
-5. Floyd Warshall Law.
+Algorithm:<br>
+1. BFS<br>
+2. DFS<br>
+3. Dijksstra Algorith<br>
+4. Bellman Ford<br>
+5. Floyd Warshall Law<br>
 
