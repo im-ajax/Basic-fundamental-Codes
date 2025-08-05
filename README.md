@@ -24,8 +24,16 @@ thing which will be covered in c++: <br>
 3. class and objects.<br>
 
 <hr> 
-Dhata structure :
+Data structure :
 1. Space and time Complexity<br>
 2. Stack and queue <br>
 3. Linked List<br>
 4. Binary Tree.<br>
+
+Algorithm:
+1. BFS
+2. DFS
+3. Dijksstra Algorith,
+4. Bellman Ford
+5. Floyd Warshall Law.
+
