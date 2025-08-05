@@ -29,7 +29,7 @@ Data structure :<br>
 2. Stack and queue <br>
 3. Linked List<br>
 4. Binary Tree.<br>
-
+<hr>
 Algorithm:<br>
 1. BFS<br>
 2. DFS<br>
