@@ -1,0 +1,69 @@
+Git and Shell Commands Cheat Sheet (Updated)
+
+== Git Commands ==
+git config --global user.name "Your Name"     - Set your Git username
+git config --global user.email "you@example.com" - Set your Git email
+git config --list                             - List all Git configurations
+git init                                      - Initialize a new Git repository
+git clone <url>                               - Clone a remote repository
+git status                                    - Check status of the working directory
+git add <file>                                - Add a file to the staging area
+git add .                                     - Add all files to the staging area
+git commit -m "message"                       - Commit changes with a message
+git commit -am "message"                      - Add and commit tracked files in one command
+git log                                       - Show commit history
+git log --oneline                             - Show condensed commit history
+git diff                                      - Show changes not yet staged
+git diff --staged                             - Show staged changes
+git branch                                    - List all branches
+git branch <branch-name>                      - Create a new branch
+git checkout <branch-name>                    - Switch to another branch
+git switch <branch-name>                      - Switch branches (modern syntax)
+git checkout -b <branch-name>                 - Create and switch to a new branch
+git switch -c <branch-name>                   - Create and switch to a new branch
+git merge <branch-name>                       - Merge a branch into the current one
+git branch -d <branch-name>                   - Delete a branch
+git remote -v                                 - View configured remotes
+git remote add origin <url>                   - Add a remote repository
+git push -u origin main                       - Push to remote repository (set upstream)
+git push                                      - Push changes to remote
+git pull                                      - Pull updates from remote
+git fetch                                     - Fetch from remote (without merge)
+git restore <file>                            - Restore changes in working directory
+git restore --staged <file>                   - Unstage a file
+git reset --hard                              - Reset working directory and staging area
+git tag                                       - List all tags
+git tag <tag-name>                            - Create a new tag
+git tag -a <tag-name> -m "message"            - Create an annotated tag
+git push origin <tag-name>                    - Push a tag to the remote
+git push origin --tags                        - Push all tags to the remote
+git stash                                     - Stash current changes
+git stash apply                               - Apply last stashed changes
+git stash pop                                 - Apply and remove the stash
+git stash list                                - List all stashes
+git stash drop                                - Remove a specific stash
+git blame <file>                              - Show who modified each line of a file
+git reflog                                    - Show history of HEAD changes
+git cherry-pick <commit>                      - Apply a specific commit
+git rebase <branch>                           - Move or combine a sequence of commits
+git clean -fd                                 - Remove untracked files and directories
+
+== Shell (Terminal) Commands ==
+ls                        - List files in the current directory
+ls -a                     - List all files including hidden ones
+ls -l                     - List files in long format with permissions
+pwd                       - Print working directory (current location)
+cd <dir>                  - Change directory
+cd ..                     - Go up one directory level
+cd ~                      - Go to the home directory
+mkdir <dir>               - Create a new directory
+rm <file>                 - Remove a file
+rm -r <dir>               - Remove a directory and its contents
+touch <file>              - Create a new empty file
+clear                     - Clear the terminal screen
+echo <text>               - Display a line of text
+cat <file>                - Display the contents of a file
+nano <file>               - Open a file in the Nano editor
+vim <file>                - Open a file in the Vim editor
+code .                    - Open the current directory in VS Code
+exit                      - Close the terminal session
