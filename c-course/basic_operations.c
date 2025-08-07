@@ -49,5 +49,9 @@ int main(){
     //here %d holds a value of a. so we are giving the format specifier and that is holding a value of a
     // so that we can get value of a 
     // final : %d came from the ancestors we use 
+
+
+
+    //scanning 
     return 0;
 }
