@@ -4,12 +4,16 @@
       float -> float values
       long long -> for bigger integers
       double/long float -> for bigger float values
+      char -> for character;
+      string -> used for working with strings
 
       format specifier:
       int -> %d
       float -> %f
       long long int/long long -> %lld
       long float/double -> %lf
+      char -> %c
+      string -> %s
     */
 
     // variables ->
@@ -49,9 +53,15 @@ int main(){
     //here %d holds a value of a. so we are giving the format specifier and that is holding a value of a
     // so that we can get value of a 
     // final : %d came from the ancestors we use 
-
-
-
-    //scanning 
     return 0;
 }
+
+#include<stdio.h>
+#include<math.h>
+#include<string.h>
+#include<stdlib.h>
+int main(){
+    
+    return 0;
+}
+
